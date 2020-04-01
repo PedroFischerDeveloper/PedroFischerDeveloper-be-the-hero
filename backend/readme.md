@@ -16,6 +16,8 @@ npm install knex
 
 npm install sqlite3
 
+npm install celebrate
+
 /*
  * Rota / Recurso
 */
