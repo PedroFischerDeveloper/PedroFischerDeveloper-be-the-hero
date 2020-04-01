@@ -18,6 +18,11 @@ npm install sqlite3
 
 npm install celebrate
 
+npm install cross-env
+
+npm install jest
+    npx jest --init
+    
 /*
  * Rota / Recurso
 */

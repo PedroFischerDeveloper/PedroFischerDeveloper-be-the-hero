@@ -19,7 +19,7 @@ routes.post('/ongs',celebrate({
     [Segments.BODY]: Joi.object().keys({
         name: Joi.string().required(),
         email: Joi.string().required().email(),
-        whatssap: Joi.number().required().min(10).max(11),
+        whatssap: Joi.string().required().min(10).max(11),
         city: Joi.string().required(),
         uf: Joi.string().required().length(2),
     })
